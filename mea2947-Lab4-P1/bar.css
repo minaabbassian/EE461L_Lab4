@@ -1,0 +1,62 @@
+/* class attribute for titles of webpage*/
+.titles {
+	color: red;
+	text-decoration: underline;
+	text-align: center;
+}
+
+/* id attribue for body text of webpage*/
+#bodyText {
+	color: blue;
+	text-align: center;
+	margin: 10px;
+}
+
+/* id attribue for link to blog*/
+#blogLink {
+	color: blue;
+	text-align: center;
+	margin: 10px;
+}
+
+/* class attribute for centering elements on webpage*/
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*table width*/
+table {
+	width: 400px;
+}
+
+/*border of table*/
+table, th, td {
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+/*spacing within table and centering of text in table*/
+th, td {
+	padding: 5px;
+	text-align: center;
+}
+
+/*coloring of the table*/
+tr:nth-child(even) {
+	background-color: #fff;
+}
+
+tr:nth-child(odd) {
+	background-color: #ddd;
+}
+
+div.parent {
+	text-align: center;
+}
+
+ol {
+	display: inline-block;
+	text-align: left;
+	color: blue;
+}
